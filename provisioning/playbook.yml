@@ -1,0 +1,7 @@
+---
+- hosts: default
+  roles :
+    - briancoca.oracle_java7
+    - robdyke.maven
+    - robdyke.medrecord
+  sudo: True
